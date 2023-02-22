@@ -61,7 +61,7 @@ function initMap() {
 // Styles a map in night mode.
     var map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: -22.910, lng: -43.185},
-        zoom: 12,
+        zoom: 8,
         scrollwheel:  false,
         navigationControl: false,
         mapTypeControl: false,
